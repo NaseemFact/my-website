@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Untitled design.svg" alt="Speed Info Logo"> <!-- Replace logo.png with your logo file -->
+          
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="openPage('home')">Home</a></li>
+                <li><a href="#" onclick="openPage('news')">News</a></li>
+                <li><a href="#" onclick="openPage('latest')">Latest</a></li>
+                <li><a href="#" onclick="openPage('popular')">Popular</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content">
+        <div id="home" class="page active">
+            <h1>Welcome to Real Time Fact</h1>
+            <p>This is the Home page. Stay updated with the latest information!</p>
+        </div>
+        <div id="news" class="page">
+            <h1>News</h1>
+            <p>Read the latest news here.</p>
+        </div>
+        <div id="latest" class="page">
+            <h1>Latest</h1>
+            <p>Check out the most recent updates.</p>
+        </div>
+        <div id="popular" class="page">
+            <h1>Popular</h1>
+            <p>Explore the most popular information.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Speed Info. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
